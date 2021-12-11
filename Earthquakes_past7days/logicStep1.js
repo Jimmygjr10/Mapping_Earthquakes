@@ -33,9 +33,6 @@ L.control.layers(baseMaps).addTo(map);
  // Then we add our 'graymap' tile layer to the map.
 // streets.addTo(map);
 
-// Accessing the Toronto airline routes GeoJSON URL.
-let torontoHoods = "https://raw.githubusercontent.com/Jimmygjr10/Mapping_Earthquakes/Mapping_GeoJSON_Polygons/torontoNeighborhoods.json";
-
 // Create a style for the lines.
 let myStyle = {
     color: "#ffffa1",
